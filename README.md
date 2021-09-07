@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Login Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Simple React Login page
+
+create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `cd my-login`
+
+#### then -->
 
 ### `npm start`
 
