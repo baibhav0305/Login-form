@@ -17,8 +17,8 @@ body {
 
 .container {
   height: 100vh;
-  /* margin: 10px auto;
-  padding: 80px 0; */
+  /* margin: 10px auto; */
+  /* padding: 80px 0; */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -69,5 +69,5 @@ img {
 }
 
 .footer {
-  padding-top: 250px;
+  padding-top: 50px;
 }
