@@ -3,14 +3,14 @@ import Login from "./Login";
 import Footer from "./Footer";
 import Icon from "./Icon";
 
-let isLoggedIn = false;
+let userIsRegistered = false;
 
 function App() {
     return (
         <div className="container">
             <Icon />
             <h1>Welcome !</h1>
-            {isLoggedIn ? <h1>Hello</h1> : <Login />}
+            <Login isRegistered={userIsRegistered} />
             <Footer />
         </div>
     );
