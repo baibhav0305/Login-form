@@ -18,7 +18,7 @@ function App() {
     return (
         <div className="container">
             <Icon />
-            <h1>Welcome !</h1>
+            <h1>Welcome {userIsRegistered ? "Back  ! " : " ! "} </h1>
             <Login isRegistered={userIsRegistered} />
             <Detail currentPage={userIsRegistered} />
             <Footer />
